@@ -2,7 +2,7 @@ import React, { useMemo, useEffect } from 'react';
 import RcTooltip from 'rc-tooltip';
 import { isFunction } from 'lodash';
 import { TooltipProps } from './interface';
-import Link from '../link';
+import Link from '../../link';
 import getPlacements from './placements';
 import useControlledState from '../../utils/hooks/useControlledState';
 import usePrefixCls from '../../utils/hooks/use-prefix-cls';
